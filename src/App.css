@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -88,6 +89,11 @@ form button:hover {
 .complete-btn {
   background: rgb(11, 212, 162);
 }
+.trash-btn:active,
+.complete-btn:active {
+  cursor:default;
+}
+
 .todo-item {
   padding: 0rem 0.5rem;
 }
@@ -96,6 +102,7 @@ form button:hover {
 .fa-check {
   pointer-events: none;
 }
+
 
 .fall {
   transform: translateY(10rem) rotateZ(20deg);
